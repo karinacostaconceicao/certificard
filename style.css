@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+body {
+  background: linear-gradient(236.85deg, #008B8B 27.26%, #7FFFD4 96.03%);
+  font-family: 'Scheherazade New', serif;
+}
+
+.container {
+  background: #F8F8FF;
+  color: #000000;
+  margin: 63px;
+  border-radius: 20px;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+  
+}
+
+.foto {
+  padding: 30px;
+  max-height: 200px;
+}
+
+.titulo {
+  font-size: 15px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 33px;
+  line-height:0em;
+}
+
+.titulo h2 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.tema button {
+  font-size: 24px;
+  font-weight: 300;
+  padding: 5px 20px;
+  background:#7FFFD4;
+  border-radius: 100px;
+  align-self: flex-end;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: Left;
+  background: linear-gradient(236.85deg, #008B8B 27.26%, #7FFFD4 96.03%);
+  border-radius: 9px;
+}
+
+.projetos-titulo{
+  list-style: none:
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+.projetos-items {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 35px;
+  margin-left: 65px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+}
+
+.projetos-items a{
+  color: black;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #006699 27.26%, #009999 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1C1C1C;
+  background: linear-gradient(236.85deg, #006699 27.26%, #009999 96.03%);
+}
+
+.dark .tema button {
+  background: #1C1C1C;
+  color: #FFFFFF;
+  border: 2px solid #F7F7F7;
+}
